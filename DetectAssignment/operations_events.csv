@@ -1,0 +1,501 @@
+event_id,event_date,business_unit,location,event_type,event_status,category,priority,impact_type,resolution_status,cost_amount,processing_hours,customer_count
+E001,2026-11-24,Logistics,Location A,Opportunity,Open,Efficiency,High,Regulatory,Open,0,17,0
+E002,2026-01-17,Manufacturing,Location A,Near Miss,Closed,Quality,High,Regulatory,Resolved,0,18,0
+E003,2026-10-29,Finance,Location A,Near Miss,Closed,Process,Medium,Operational,Waived,0,6,0
+E004,2026-02-22,Logistics,Location D,Issue,Closed,Delay,High,Customer,Resolved,9785,7,49
+E005,2026-02-10,Finance,Location E,Opportunity,Closed,Revenue,Low,Operational,Resolved,0,0,0
+E006,2026-04-30,Logistics,Location D,Opportunity,Closed,Cost Saving,Low,Commercial,Resolved,0,2,184
+E007,2026-12-16,Logistics,Location E,Near Miss,Closed,Safety,Low,Financial,Resolved,0,4,0
+E008,2026-04-23,HR,Location A,Near Miss,Open,Process,Medium,Customer,Open,0,10,92
+E009,2026-06-11,Support,Location D,Incident,In Progress,Service,Low,Operational,In Progress,126,4,0
+E010,2026-10-03,Finance,Location E,Incident,In Progress,Service,Medium,Operational,In Progress,2287,8,0
+E011,2026-02-16,Manufacturing,Location A,Near Miss,Closed,Compliance,High,Financial,Resolved,0,18,0
+E012,2026-09-28,Finance,Location E,Issue,Closed,Quality,High,Regulatory,Resolved,6573,7,0
+E013,2026-05-31,IT,Location B,Incident,Open,Quality,Critical,Operational,Open,11973,27,0
+E014,2026-11-24,Support,Location B,Opportunity,In Progress,Revenue,High,Financial,In Progress,0,4,0
+E015,2026-02-27,HR,Location C,Near Miss,Closed,Quality,Low,Financial,Resolved,0,4,0
+E016,2026-03-06,Sales,Location D,Audit Finding,Closed,Finance,Critical,Regulatory,Resolved,18182,27,0
+E017,2026-07-24,HR,Location D,Audit Finding,Closed,Process,Medium,Commercial,Resolved,2468,4,155
+E018,2026-04-23,Manufacturing,Location A,Issue,Open,Quality,Critical,Customer,Open,23250,39,28
+E019,2026-10-04,Sales,Location E,Audit Finding,Closed,Finance,High,Operational,Resolved,8062,15,0
+E020,2026-08-05,IT,Location D,Issue,Closed,Safety,Low,Financial,Resolved,409,0,0
+E021,2026-05-08,Support,Location B,Audit Finding,Closed,Finance,Low,Financial,Resolved,472,0,0
+E022,2026-08-15,Logistics,Location A,Audit Finding,Open,Compliance,Critical,Operational,Open,36826,38,0
+E023,2026-04-20,IT,Location A,Near Miss,Closed,Compliance,Medium,Financial,Resolved,0,9,0
+E024,2026-12-05,Operations,Location B,Near Miss,Closed,Quality,High,Regulatory,Resolved,0,14,0
+E025,2026-01-30,Manufacturing,Location E,Incident,Closed,Compliance,Low,Regulatory,Resolved,95,0,0
+E026,2026-11-01,Logistics,Location B,Incident,Open,Compliance,High,Customer,Open,7868,20,41
+E027,2026-05-14,Support,Location C,Near Miss,Closed,Safety,High,Commercial,Resolved,0,6,7
+E028,2026-08-23,Logistics,Location A,Audit Finding,Closed,Quality,Low,Commercial,Resolved,450,1,99
+E029,2026-05-26,Sales,Location D,Audit Finding,Open,Compliance,High,Regulatory,Open,2697,8,0
+E030,2026-05-16,Logistics,Location A,Audit Finding,Closed,Quality,High,Commercial,Resolved,5325,20,130
+E031,2026-05-09,Manufacturing,Location A,Incident,In Progress,Safety,Low,Operational,In Progress,326,2,0
+E032,2026-03-24,Operations,Location E,Incident,Closed,Safety,Low,Operational,Resolved,427,2,0
+E033,2026-10-26,Sales,Location D,Near Miss,Closed,Process,Critical,Customer,Resolved,0,21,88
+E034,2026-05-08,Logistics,Location C,Audit Finding,In Progress,Finance,Critical,Operational,In Progress,20514,18,0
+E035,2026-04-01,IT,Location A,Near Miss,Open,Process,High,Financial,Escalated,0,11,0
+E036,2026-05-17,Sales,Location A,Incident,In Progress,Service,Medium,Financial,In Progress,1632,5,0
+E037,2026-04-27,Support,Location A,Near Miss,Closed,Process,Critical,Commercial,Resolved,0,40,107
+E038,2026-12-14,HR,Location A,Issue,In Progress,Delay,Low,Commercial,In Progress,19,0,157
+E039,2026-08-11,HR,Location C,Incident,Closed,Safety,Medium,Regulatory,Resolved,381,7,0
+E040,2026-01-01,Support,Location C,Incident,Open,Quality,High,Customer,Open,5920,20,40
+E041,2026-12-08,IT,Location C,Incident,Closed,Compliance,Low,Financial,Resolved,462,1,0
+E042,2026-11-12,Finance,Location D,Audit Finding,Open,Quality,Medium,Financial,Escalated,2684,6,0
+E043,2026-08-27,Operations,Location D,Near Miss,Closed,Safety,High,Commercial,Resolved,0,14,28
+E044,2026-05-01,Finance,Location B,Near Miss,Closed,Quality,Medium,Financial,Resolved,0,2,0
+E045,2026-08-22,IT,Location E,Near Miss,Open,Compliance,Medium,Operational,Open,0,1,0
+E046,2026-02-24,IT,Location B,Near Miss,Open,Compliance,Low,Operational,Escalated,0,0,0
+E047,2026-08-22,Sales,Location D,Audit Finding,In Progress,Quality,Critical,Financial,In Progress,45150,40,0
+E048,2026-08-07,Operations,Location B,Incident,Closed,Compliance,High,Commercial,Resolved,9540,19,165
+E049,2026-05-03,Finance,Location D,Issue,Closed,Process,Medium,Commercial,Resolved,530,3,43
+E050,2026-04-29,IT,Location B,Near Miss,Closed,Compliance,Medium,Financial,Resolved,0,4,0
+E051,2026-08-04,IT,Location E,Issue,In Progress,Compliance,Medium,Customer,In Progress,1640,5,97
+E052,2026-07-19,IT,Location E,Audit Finding,Open,Process,Medium,Commercial,Open,318,7,91
+E053,2026-12-09,IT,Location B,Incident,Deferred,Safety,Critical,Regulatory,Open,6776,13,0
+E054,2026-11-26,IT,Location B,Incident,Open,Quality,Medium,Operational,Open,1582,7,0
+E055,2026-05-23,IT,Location C,Issue,Closed,Safety,Medium,Commercial,Resolved,481,1,198
+E056,2026-01-16,Support,Location B,Issue,Closed,Process,Low,Customer,Resolved,111,3,90
+E057,2026-05-12,HR,Location B,Audit Finding,Closed,Compliance,High,Operational,Waived,2771,4,0
+E058,2026-06-09,IT,Location D,Near Miss,Closed,Safety,Low,Commercial,Resolved,0,4,35
+E059,2026-10-17,Manufacturing,Location C,Audit Finding,Closed,Quality,Low,Commercial,Resolved,215,3,32
+E060,2026-08-10,HR,Location D,Near Miss,Closed,Process,High,Regulatory,Resolved,0,18,0
+E061,2026-08-12,Finance,Location C,Near Miss,Open,Quality,Medium,Financial,Open,0,8,0
+E062,2026-10-19,IT,Location C,Issue,Closed,Delay,Low,Operational,Resolved,132,2,0
+E063,2026-05-24,Finance,Location E,Issue,Closed,Process,Low,Financial,Resolved,388,1,0
+E064,2026-12-20,Operations,Location D,Incident,In Progress,Safety,Medium,Financial,In Progress,1196,5,0
+E065,2026-12-06,HR,Location D,Audit Finding,Closed,Finance,Critical,Regulatory,Resolved,34736,25,0
+E066,2026-06-06,Finance,Location B,Issue,Closed,Delay,Low,Regulatory,Waived,353,1,0
+E067,2026-04-09,Support,Location D,Opportunity,Closed,Cost Saving,Critical,Operational,Resolved,0,31,0
+E068,2026-04-02,Finance,Location A,Audit Finding,Closed,Compliance,Critical,Regulatory,Resolved,13275,39,0
+E069,2026-02-22,Manufacturing,Location E,Opportunity,Closed,Process,Medium,Customer,Resolved,0,8,15
+E070,2026-02-03,IT,Location D,Issue,Closed,Safety,Low,Operational,Resolved,485,2,0
+E071,2026-02-13,Support,Location A,Audit Finding,Open,Process,High,Financial,Open,8253,13,0
+E072,2026-10-29,IT,Location C,Audit Finding,Closed,Compliance,Critical,Operational,Resolved,22343,13,0
+E073,2026-03-22,Support,Location B,Audit Finding,Closed,Compliance,Medium,Regulatory,Resolved,333,4,0
+E074,2026-05-28,Finance,Location D,Issue,Closed,Delay,High,Regulatory,Resolved,4241,17,0
+E075,2026-02-28,Support,Location B,Opportunity,In Progress,Revenue,Low,Commercial,In Progress,0,4,196
+E076,2026-10-19,Finance,Location D,Issue,Closed,Delay,High,Commercial,Resolved,9090,18,25
+E077,2026-11-03,Manufacturing,Location D,Opportunity,Closed,Revenue,Low,Regulatory,Resolved,0,0,0
+E078,2026-12-11,Finance,Location E,Issue,In Progress,Process,Medium,Financial,In Progress,1339,3,0
+E079,2026-10-27,IT,Location D,Issue,Closed,Service,Medium,Customer,Resolved,1550,7,89
+E080,2026-09-11,Finance,Location D,Audit Finding,Closed,Compliance,Medium,Commercial,Resolved,1855,9,5
+E081,2026-12-03,Operations,Location D,Issue,Open,Delay,High,Financial,Open,1845,10,0
+E082,2026-05-17,Sales,Location C,Incident,In Progress,Service,Low,Regulatory,In Progress,409,1,0
+E083,2026-12-30,Sales,Location C,Audit Finding,Closed,Finance,Low,Customer,Resolved,60,1,64
+E084,2026-05-30,Finance,Location D,Incident,Deferred,Compliance,Medium,Operational,Resolved,2655,9,0
+E085,2026-03-11,Logistics,Location C,Incident,Closed,Quality,High,Commercial,Resolved,9022,8,119
+E086,2026-10-03,Operations,Location C,Opportunity,Closed,Process,Medium,Commercial,Resolved,0,4,151
+E087,2026-07-16,Support,Location D,Issue,Closed,Service,High,Financial,Resolved,3492,19,0
+E088,2026-01-19,Sales,Location E,Audit Finding,Closed,Compliance,Critical,Financial,Resolved,34945,8,0
+E089,2026-03-15,IT,Location B,Issue,Closed,Delay,Medium,Financial,Resolved,1545,9,0
+E090,2026-07-14,HR,Location D,Audit Finding,Closed,Compliance,Medium,Commercial,Waived,570,7,30
+E091,2026-11-21,Logistics,Location D,Near Miss,Closed,Quality,Low,Customer,Resolved,0,2,56
+E092,2026-03-16,Support,Location E,Incident,Closed,Compliance,Low,Customer,Resolved,195,4,88
+E093,2026-05-04,Operations,Location E,Near Miss,Closed,Process,Medium,Customer,Resolved,0,8,37
+E094,2026-12-13,Sales,Location A,Incident,Deferred,Quality,High,Financial,Open,8484,13,0
+E095,2026-04-12,IT,Location D,Issue,Open,Compliance,Medium,Commercial,Escalated,1409,1,173
+E096,2026-07-22,Finance,Location A,Audit Finding,In Progress,Compliance,Critical,Financial,In Progress,23756,22,0
+E097,2026-11-07,HR,Location B,Near Miss,Closed,Safety,High,Customer,Resolved,0,18,5
+E098,2026-10-24,HR,Location B,Issue,Deferred,Delay,High,Operational,Resolved,9837,15,0
+E099,2026-09-29,Finance,Location B,Opportunity,Deferred,Process,Critical,Commercial,Open,0,29,34
+E100,2026-08-28,Logistics,Location B,Near Miss,In Progress,Compliance,Critical,Regulatory,In Progress,0,31,0
+E101,2026-02-16,IT,Location A,Opportunity,Closed,Process,Medium,Commercial,Resolved,0,6,32
+E102,2026-12-12,Support,Location D,Issue,Closed,Compliance,Medium,Regulatory,Resolved,458,8,0
+E103,2026-12-25,Finance,Location D,Issue,Open,Quality,Medium,Financial,Open,1161,9,0
+E104,2026-03-11,IT,Location D,Opportunity,Closed,Process,High,Operational,Resolved,0,7,0
+E105,2026-09-08,IT,Location C,Issue,Closed,Process,Medium,Operational,Resolved,606,6,0
+E106,2026-10-06,HR,Location A,Incident,Closed,Safety,Critical,Financial,Resolved,18900,9,0
+E107,2026-01-26,HR,Location B,Near Miss,Open,Safety,Low,Regulatory,Open,0,1,0
+E108,2026-04-30,HR,Location B,Audit Finding,Closed,Process,Critical,Regulatory,Resolved,16435,15,0
+E109,2026-12-05,Manufacturing,Location B,Issue,Closed,Process,High,Customer,Resolved,1858,8,95
+E110,2026-08-04,Logistics,Location A,Incident,Closed,Quality,Medium,Customer,Resolved,1107,10,6
+E111,2026-12-04,Finance,Location D,Issue,Open,Service,High,Financial,Open,9032,18,0
+E112,2026-02-07,Logistics,Location C,Audit Finding,Closed,Process,Medium,Regulatory,Resolved,1531,7,0
+E113,2026-11-02,Finance,Location D,Audit Finding,Closed,Compliance,High,Customer,Resolved,4522,17,58
+E114,2026-04-27,IT,Location C,Incident,Closed,Safety,Medium,Commercial,Resolved,1733,3,180
+E115,2026-08-31,Logistics,Location A,Issue,Open,Quality,High,Commercial,Escalated,1982,14,176
+E116,2026-03-04,IT,Location C,Incident,In Progress,Safety,Critical,Regulatory,In Progress,25476,30,0
+E117,2026-02-23,Support,Location B,Incident,Open,Safety,Medium,Regulatory,Open,1341,10,0
+E118,2026-04-26,IT,Location E,Audit Finding,Closed,Compliance,High,Commercial,Resolved,5477,13,91
+E119,2026-06-29,Manufacturing,Location B,Near Miss,Closed,Compliance,Low,Customer,Resolved,0,4,28
+E120,2026-07-12,IT,Location D,Opportunity,Open,Cost Saving,High,Regulatory,Open,0,5,0
+E121,2026-03-21,Sales,Location E,Issue,Closed,Delay,Medium,Financial,Resolved,2010,7,0
+E122,2026-05-20,Support,Location E,Issue,Closed,Quality,Medium,Regulatory,Resolved,2932,5,0
+E123,2026-01-24,Support,Location D,Audit Finding,Closed,Process,Medium,Operational,Resolved,1246,5,0
+E124,2026-06-17,Logistics,Location A,Incident,Closed,Compliance,Low,Regulatory,Resolved,256,4,0
+E125,2026-12-09,HR,Location A,Incident,In Progress,Safety,Medium,Financial,In Progress,518,6,0
+E126,2026-10-22,IT,Location E,Incident,Closed,Service,Medium,Financial,Resolved,1530,3,0
+E127,2026-11-13,Operations,Location C,Issue,Closed,Quality,Medium,Regulatory,Resolved,522,7,0
+E128,2026-06-08,HR,Location B,Opportunity,In Progress,Revenue,Medium,Customer,In Progress,0,9,66
+E129,2026-04-10,HR,Location C,Near Miss,Closed,Safety,Medium,Operational,Resolved,0,2,0
+E130,2026-04-01,Operations,Location D,Audit Finding,Open,Finance,High,Regulatory,Open,6295,14,0
+E131,2026-03-19,Operations,Location A,Incident,Closed,Quality,High,Regulatory,Resolved,9312,6,0
+E132,2026-06-08,Operations,Location D,Issue,Open,Delay,Low,Customer,Open,259,3,60
+E133,2026-10-25,Manufacturing,Location D,Audit Finding,Closed,Quality,High,Regulatory,Resolved,2013,18,0
+E134,2026-02-22,HR,Location A,Audit Finding,Closed,Compliance,Medium,Financial,Waived,2346,9,0
+E135,2026-11-09,Sales,Location C,Opportunity,Deferred,Process,Medium,Commercial,Open,0,1,166
+E136,2026-11-28,HR,Location A,Opportunity,Open,Process,Medium,Regulatory,Escalated,0,6,0
+E137,2026-02-11,Sales,Location C,Opportunity,Deferred,Process,Low,Customer,Resolved,0,3,83
+E138,2026-06-18,Sales,Location E,Issue,Closed,Service,Medium,Customer,Resolved,938,4,44
+E139,2026-09-06,Support,Location B,Near Miss,Closed,Process,High,Customer,Resolved,0,20,5
+E140,2026-12-05,HR,Location E,Near Miss,Closed,Safety,Low,Regulatory,Resolved,0,1,0
+E141,2026-08-13,Manufacturing,Location D,Opportunity,Closed,Efficiency,Critical,Regulatory,Resolved,0,36,0
+E142,2026-04-30,Support,Location C,Incident,Deferred,Compliance,Medium,Regulatory,Open,2091,5,0
+E143,2026-07-15,IT,Location B,Near Miss,Open,Safety,Critical,Customer,Open,0,31,71
+E144,2026-02-22,Logistics,Location C,Issue,In Progress,Delay,Medium,Regulatory,In Progress,803,7,0
+E145,2026-02-16,Support,Location D,Opportunity,Deferred,Process,Low,Regulatory,Resolved,0,3,0
+E146,2026-02-11,HR,Location B,Issue,Closed,Quality,High,Commercial,Resolved,3254,5,78
+E147,2026-08-30,Sales,Location D,Incident,Closed,Safety,Low,Operational,Resolved,280,4,0
+E148,2026-09-28,IT,Location A,Opportunity,Open,Revenue,Low,Financial,Open,0,4,0
+E149,2026-08-23,Logistics,Location A,Incident,Closed,Safety,High,Regulatory,Resolved,3352,13,0
+E150,2026-08-08,Manufacturing,Location E,Opportunity,Open,Process,Low,Customer,Open,0,2,9
+E151,2026-09-27,Manufacturing,Location D,Incident,Open,Service,Critical,Commercial,Open,28402,12,93
+E152,2026-05-04,Logistics,Location E,Opportunity,Open,Cost Saving,Medium,Operational,Escalated,0,8,0
+E153,2026-12-23,Operations,Location B,Near Miss,Closed,Compliance,Low,Operational,Resolved,0,1,0
+E154,2026-01-22,HR,Location C,Audit Finding,Closed,Finance,Medium,Operational,Resolved,395,6,0
+E155,2026-05-20,Logistics,Location C,Incident,In Progress,Service,Critical,Financial,In Progress,27219,19,0
+E156,2026-09-12,Operations,Location C,Audit Finding,Closed,Compliance,High,Customer,Resolved,3956,13,42
+E157,2026-02-22,Logistics,Location C,Opportunity,Closed,Process,Low,Financial,Resolved,0,0,0
+E158,2026-06-30,IT,Location C,Issue,Open,Safety,Medium,Regulatory,Escalated,2982,3,0
+E159,2026-01-16,Sales,Location E,Incident,Open,Safety,Medium,Commercial,Open,2523,1,159
+E160,2026-03-20,Operations,Location C,Opportunity,Closed,Revenue,High,Regulatory,Resolved,0,14,0
+E161,2026-11-29,Finance,Location B,Issue,Open,Process,Medium,Financial,Escalated,682,5,0
+E162,2026-05-14,Operations,Location B,Audit Finding,Closed,Finance,Medium,Operational,Resolved,2051,3,0
+E163,2026-08-16,Logistics,Location C,Opportunity,Closed,Cost Saving,Critical,Operational,Resolved,0,19,0
+E164,2026-07-05,Support,Location A,Near Miss,Open,Safety,High,Customer,Open,0,15,60
+E165,2026-10-10,Sales,Location E,Issue,Open,Service,Critical,Financial,Open,31832,12,0
+E166,2026-03-06,HR,Location A,Incident,Closed,Quality,Low,Regulatory,Resolved,93,1,0
+E167,2026-08-10,Manufacturing,Location A,Audit Finding,Closed,Process,Low,Operational,Resolved,481,4,0
+E168,2026-05-26,Logistics,Location C,Near Miss,Closed,Process,Low,Commercial,Resolved,0,0,133
+E169,2026-11-25,Sales,Location E,Audit Finding,Closed,Quality,High,Regulatory,Resolved,1464,6,0
+E170,2026-01-24,Finance,Location B,Audit Finding,Closed,Compliance,Medium,Regulatory,Resolved,1437,8,0
+E171,2026-05-06,IT,Location C,Incident,Open,Safety,Low,Financial,Open,104,2,0
+E172,2026-11-07,Sales,Location C,Opportunity,Closed,Cost Saving,Critical,Operational,Resolved,0,40,0
+E173,2026-10-15,Logistics,Location C,Near Miss,Closed,Process,Medium,Operational,Resolved,0,5,0
+E174,2026-07-16,IT,Location B,Near Miss,Open,Process,Low,Operational,Open,0,4,0
+E175,2026-08-28,Operations,Location C,Incident,Open,Service,Medium,Operational,Open,1645,1,0
+E176,2026-01-26,Finance,Location D,Audit Finding,In Progress,Finance,Medium,Customer,In Progress,640,7,18
+E177,2026-05-16,HR,Location D,Opportunity,Open,Revenue,High,Operational,Open,0,13,0
+E178,2026-02-07,IT,Location E,Incident,In Progress,Quality,High,Regulatory,In Progress,2946,8,0
+E179,2026-02-19,IT,Location C,Opportunity,Closed,Cost Saving,High,Operational,Resolved,0,16,0
+E180,2026-09-14,Manufacturing,Location A,Issue,Open,Delay,High,Regulatory,Open,9446,8,0
+E181,2026-06-17,HR,Location B,Incident,Deferred,Quality,High,Regulatory,Open,9721,19,0
+E182,2026-12-29,Finance,Location D,Issue,Closed,Safety,Low,Financial,Resolved,407,0,0
+E183,2026-11-02,Operations,Location C,Audit Finding,Closed,Compliance,High,Operational,Resolved,7229,8,0
+E184,2026-12-15,Support,Location A,Audit Finding,In Progress,Compliance,Low,Financial,In Progress,160,3,0
+E185,2026-03-19,IT,Location B,Incident,Closed,Service,Critical,Customer,Resolved,38992,21,72
+E186,2026-06-16,Operations,Location E,Incident,Closed,Compliance,Medium,Regulatory,Resolved,1651,5,0
+E187,2026-11-09,Operations,Location B,Near Miss,Closed,Process,Medium,Commercial,Resolved,0,4,181
+E188,2026-12-27,Operations,Location C,Incident,Closed,Quality,Medium,Regulatory,Resolved,1755,7,0
+E189,2026-06-26,Sales,Location C,Issue,Closed,Safety,Low,Financial,Resolved,382,3,0
+E190,2026-04-20,Support,Location E,Opportunity,Deferred,Cost Saving,Low,Regulatory,Open,0,1,0
+E191,2026-05-05,Manufacturing,Location E,Near Miss,Closed,Quality,Low,Commercial,Resolved,0,0,179
+E192,2026-03-12,Manufacturing,Location E,Near Miss,Closed,Compliance,Medium,Operational,Resolved,0,5,0
+E193,2026-06-14,Finance,Location A,Issue,Closed,Process,Medium,Customer,Waived,917,7,23
+E194,2026-01-19,IT,Location D,Near Miss,In Progress,Process,Critical,Customer,In Progress,0,27,73
+E195,2026-11-05,Logistics,Location C,Opportunity,Closed,Process,Critical,Operational,Resolved,0,37,0
+E196,2026-05-20,Support,Location A,Opportunity,Open,Process,High,Operational,Open,0,14,0
+E197,2026-06-01,Support,Location B,Audit Finding,In Progress,Finance,High,Regulatory,In Progress,6372,6,0
+E198,2026-07-25,Logistics,Location B,Near Miss,Closed,Safety,Low,Financial,Resolved,0,2,0
+E199,2026-06-18,Finance,Location E,Audit Finding,Closed,Quality,High,Customer,Resolved,8625,13,21
+E200,2026-07-27,Finance,Location A,Opportunity,Closed,Efficiency,Medium,Operational,Resolved,0,8,0
+E201,2026-11-07,HR,Location D,Audit Finding,In Progress,Process,High,Regulatory,In Progress,2341,20,0
+E202,2026-08-17,HR,Location A,Audit Finding,Closed,Process,High,Operational,Resolved,9525,18,0
+E203,2026-03-01,Support,Location E,Incident,Open,Service,High,Financial,Open,7806,18,0
+E204,2026-10-16,Manufacturing,Location E,Incident,Closed,Quality,High,Financial,Resolved,1049,10,0
+E205,2026-10-24,Logistics,Location A,Incident,Closed,Safety,Medium,Customer,Waived,482,8,5
+E206,2026-05-27,IT,Location B,Near Miss,Open,Compliance,Medium,Financial,Open,0,7,0
+E207,2026-07-12,Logistics,Location E,Near Miss,Closed,Process,Low,Regulatory,Resolved,0,1,0
+E208,2026-04-25,Manufacturing,Location A,Opportunity,Closed,Process,Medium,Operational,Resolved,0,6,0
+E209,2026-03-21,Finance,Location B,Issue,Open,Safety,Medium,Customer,Open,475,2,77
+E210,2026-01-18,Operations,Location E,Issue,Open,Quality,Medium,Operational,Open,431,3,0
+E211,2026-09-15,Finance,Location B,Audit Finding,Closed,Quality,Medium,Operational,Waived,2335,4,0
+E212,2026-07-31,Finance,Location C,Issue,Closed,Compliance,Critical,Operational,Resolved,32997,39,0
+E213,2026-01-25,HR,Location D,Audit Finding,Closed,Finance,Medium,Commercial,Resolved,2403,8,66
+E214,2026-04-26,Finance,Location B,Incident,Deferred,Service,Critical,Regulatory,Open,30455,23,0
+E215,2026-05-11,Support,Location C,Issue,Deferred,Delay,Low,Operational,Resolved,193,4,0
+E216,2026-11-05,Manufacturing,Location A,Near Miss,Open,Safety,Medium,Commercial,Open,0,1,59
+E217,2026-04-08,Logistics,Location D,Near Miss,Closed,Safety,Medium,Operational,Resolved,0,5,0
+E218,2026-07-14,Operations,Location E,Opportunity,Closed,Cost Saving,Medium,Financial,Resolved,0,8,0
+E219,2026-06-13,Support,Location C,Opportunity,Closed,Efficiency,High,Customer,Resolved,0,17,38
+E220,2026-03-20,Support,Location C,Near Miss,Closed,Safety,Medium,Commercial,Resolved,0,8,190
+E221,2026-11-25,Operations,Location D,Near Miss,Open,Process,Low,Regulatory,Open,0,4,0
+E222,2026-11-25,Manufacturing,Location E,Issue,In Progress,Quality,Critical,Customer,In Progress,5418,34,18
+E223,2026-11-19,Support,Location A,Near Miss,Closed,Compliance,Medium,Regulatory,Resolved,0,10,0
+E224,2026-09-05,Operations,Location A,Issue,Closed,Service,Low,Regulatory,Resolved,274,2,0
+E225,2026-01-09,IT,Location B,Issue,Deferred,Compliance,Low,Operational,Open,129,2,0
+E226,2026-05-17,IT,Location A,Opportunity,Deferred,Process,High,Operational,Resolved,0,6,0
+E227,2026-12-01,Manufacturing,Location A,Incident,Closed,Service,Low,Customer,Resolved,42,3,56
+E228,2026-11-27,HR,Location E,Issue,In Progress,Quality,Medium,Regulatory,In Progress,2147,5,0
+E229,2026-01-24,Logistics,Location C,Audit Finding,Closed,Compliance,Low,Commercial,Resolved,106,4,41
+E230,2026-12-31,IT,Location A,Opportunity,Open,Efficiency,High,Financial,Open,0,14,0
+E231,2026-07-16,Sales,Location A,Audit Finding,Open,Quality,Low,Financial,Open,38,2,0
+E232,2026-11-06,IT,Location C,Issue,Closed,Service,Medium,Commercial,Resolved,1737,7,52
+E233,2026-12-15,IT,Location A,Audit Finding,Closed,Process,High,Customer,Resolved,7225,8,95
+E234,2026-07-19,HR,Location C,Issue,Open,Delay,Medium,Commercial,Open,557,3,115
+E235,2026-08-18,IT,Location A,Issue,Open,Compliance,Low,Regulatory,Escalated,442,3,0
+E236,2026-01-07,Finance,Location D,Incident,In Progress,Compliance,High,Operational,In Progress,7237,9,0
+E237,2026-03-13,Finance,Location C,Opportunity,Closed,Revenue,Low,Commercial,Resolved,0,3,24
+E238,2026-07-04,Finance,Location B,Incident,Closed,Compliance,Medium,Operational,Resolved,1820,6,0
+E239,2026-11-14,IT,Location C,Incident,Closed,Compliance,Medium,Regulatory,Waived,1022,8,0
+E240,2026-06-10,Sales,Location D,Opportunity,Closed,Process,Critical,Operational,Resolved,0,25,0
+E241,2026-07-21,HR,Location A,Audit Finding,Closed,Process,High,Regulatory,Resolved,8563,10,0
+E242,2026-08-13,Finance,Location A,Incident,Closed,Compliance,High,Operational,Resolved,3525,17,0
+E243,2026-07-13,Logistics,Location D,Audit Finding,Closed,Finance,Medium,Financial,Resolved,1672,9,0
+E244,2026-11-01,Logistics,Location A,Near Miss,Closed,Process,Low,Regulatory,Resolved,0,3,0
+E245,2026-06-19,IT,Location A,Issue,Open,Process,Medium,Regulatory,Open,2556,4,0
+E246,2026-08-17,HR,Location D,Incident,In Progress,Compliance,Medium,Customer,In Progress,2177,2,38
+E247,2026-08-01,Logistics,Location A,Near Miss,Closed,Process,Medium,Operational,Resolved,0,6,0
+E248,2026-09-01,Logistics,Location D,Incident,Closed,Quality,Low,Customer,Resolved,175,0,87
+E249,2026-03-26,Support,Location E,Near Miss,Closed,Process,High,Financial,Resolved,0,16,0
+E250,2026-11-19,Sales,Location B,Incident,Closed,Compliance,Medium,Financial,Resolved,1079,4,0
+E251,2026-05-23,Logistics,Location E,Issue,In Progress,Compliance,Low,Commercial,In Progress,100,3,34
+E252,2026-05-15,Operations,Location E,Opportunity,Closed,Process,High,Commercial,Resolved,0,18,163
+E253,2026-03-30,Finance,Location E,Audit Finding,Closed,Process,Medium,Operational,Resolved,949,6,0
+E254,2026-12-22,Sales,Location E,Incident,Closed,Compliance,High,Financial,Resolved,9804,9,0
+E255,2026-10-12,Sales,Location D,Opportunity,Open,Cost Saving,High,Regulatory,Open,0,15,0
+E256,2026-01-05,Operations,Location B,Near Miss,Open,Compliance,Medium,Financial,Open,0,8,0
+E257,2026-09-08,Sales,Location A,Audit Finding,Closed,Process,Medium,Commercial,Resolved,1382,3,122
+E258,2026-10-17,Operations,Location E,Audit Finding,Closed,Compliance,Medium,Regulatory,Resolved,1702,9,0
+E259,2026-01-22,Operations,Location E,Near Miss,In Progress,Quality,High,Operational,In Progress,0,13,0
+E260,2026-01-17,Operations,Location C,Opportunity,In Progress,Revenue,Medium,Customer,In Progress,0,4,27
+E261,2026-10-29,HR,Location E,Incident,Open,Compliance,High,Operational,Escalated,6747,12,0
+E262,2026-11-02,Sales,Location C,Opportunity,Closed,Cost Saving,Critical,Regulatory,Waived,0,14,0
+E263,2026-03-11,IT,Location A,Opportunity,In Progress,Efficiency,High,Operational,In Progress,0,11,0
+E264,2026-03-16,HR,Location B,Incident,Closed,Quality,High,Financial,Resolved,2525,16,0
+E265,2026-09-21,Finance,Location C,Incident,Deferred,Quality,High,Customer,Open,8511,15,9
+E266,2026-10-01,IT,Location B,Incident,In Progress,Service,Medium,Commercial,In Progress,1583,9,152
+E267,2026-03-08,Operations,Location C,Issue,Open,Safety,High,Financial,Open,3588,18,0
+E268,2026-08-22,Manufacturing,Location D,Near Miss,In Progress,Safety,Critical,Commercial,In Progress,0,18,75
+E269,2026-02-17,HR,Location C,Issue,Closed,Safety,Low,Financial,Resolved,371,1,0
+E270,2026-08-08,Logistics,Location A,Issue,Open,Quality,Low,Operational,Open,227,0,0
+E271,2026-01-05,HR,Location A,Incident,Closed,Service,Low,Financial,Resolved,412,0,0
+E272,2026-02-22,HR,Location C,Opportunity,Open,Efficiency,High,Operational,Open,0,4,0
+E273,2026-11-09,Sales,Location D,Opportunity,Closed,Efficiency,Critical,Regulatory,Resolved,0,21,0
+E274,2026-02-14,Logistics,Location B,Issue,Closed,Service,Medium,Financial,Resolved,772,4,0
+E275,2026-05-22,Logistics,Location B,Audit Finding,Closed,Quality,High,Customer,Resolved,5942,10,67
+E276,2026-11-07,Support,Location D,Opportunity,Closed,Efficiency,Medium,Customer,Resolved,0,10,10
+E277,2026-09-28,Manufacturing,Location C,Opportunity,Open,Process,Medium,Operational,Escalated,0,2,0
+E278,2026-01-09,Logistics,Location A,Opportunity,Open,Revenue,Critical,Financial,Open,0,40,0
+E279,2026-08-01,IT,Location D,Issue,Closed,Compliance,High,Commercial,Resolved,2294,20,57
+E280,2026-03-21,HR,Location D,Audit Finding,Closed,Compliance,Medium,Financial,Resolved,1177,1,0
+E281,2026-05-06,Logistics,Location D,Issue,Closed,Compliance,Low,Operational,Resolved,362,1,0
+E282,2026-12-26,Manufacturing,Location B,Incident,Deferred,Quality,Low,Operational,Open,447,2,0
+E283,2026-03-02,Manufacturing,Location C,Incident,Closed,Safety,Medium,Regulatory,Resolved,2232,8,0
+E284,2026-09-19,HR,Location A,Incident,In Progress,Compliance,Medium,Commercial,In Progress,621,10,177
+E285,2026-03-01,Support,Location E,Issue,Open,Quality,Medium,Financial,Open,814,3,0
+E286,2026-01-19,IT,Location B,Opportunity,Open,Cost Saving,Medium,Customer,Open,0,2,65
+E287,2026-12-11,Manufacturing,Location B,Near Miss,Open,Quality,Critical,Customer,Escalated,0,26,100
+E288,2026-06-09,HR,Location A,Audit Finding,Closed,Quality,Medium,Regulatory,Resolved,2750,4,0
+E289,2026-08-26,HR,Location E,Incident,Deferred,Compliance,High,Regulatory,Open,5016,8,0
+E290,2026-01-04,IT,Location A,Near Miss,Closed,Quality,Critical,Customer,Resolved,0,32,95
+E291,2026-06-07,Logistics,Location B,Audit Finding,In Progress,Finance,Medium,Customer,In Progress,783,5,12
+E292,2026-01-23,Support,Location E,Incident,Closed,Quality,Medium,Customer,Resolved,2270,3,82
+E293,2026-07-21,Logistics,Location E,Audit Finding,Closed,Process,Medium,Commercial,Resolved,1809,6,86
+E294,2026-08-20,Finance,Location B,Issue,Deferred,Process,High,Regulatory,Resolved,2731,9,0
+E295,2026-08-19,Operations,Location C,Incident,Open,Quality,Critical,Operational,Open,35365,24,0
+E296,2026-03-03,Logistics,Location B,Opportunity,In Progress,Revenue,Medium,Commercial,In Progress,0,3,28
+E297,2026-12-31,Support,Location C,Incident,Closed,Quality,Medium,Operational,Resolved,1856,8,0
+E298,2026-10-12,Support,Location A,Incident,Open,Compliance,Low,Customer,Escalated,113,1,26
+E299,2026-07-25,HR,Location A,Audit Finding,Closed,Compliance,Low,Customer,Resolved,330,3,17
+E300,2026-02-17,HR,Location A,Issue,Deferred,Quality,Low,Regulatory,Resolved,370,3,0
+E301,2026-09-12,Manufacturing,Location D,Incident,Open,Compliance,Critical,Commercial,Open,14740,10,162
+E302,2026-11-14,Support,Location C,Incident,Closed,Service,Low,Commercial,Resolved,214,1,169
+E303,2026-09-27,Support,Location E,Issue,Deferred,Safety,Medium,Regulatory,Open,1609,10,0
+E304,2026-09-15,HR,Location D,Opportunity,Open,Cost Saving,High,Customer,Escalated,0,12,8
+E305,2026-08-30,HR,Location E,Near Miss,In Progress,Quality,Medium,Operational,In Progress,0,5,0
+E306,2026-10-01,Manufacturing,Location B,Audit Finding,Open,Finance,Medium,Operational,Open,2626,6,0
+E307,2026-12-24,HR,Location E,Issue,Closed,Delay,Critical,Regulatory,Resolved,17336,39,0
+E308,2026-10-05,Finance,Location B,Incident,Open,Safety,Medium,Operational,Open,2157,1,0
+E309,2026-06-19,Support,Location B,Opportunity,Closed,Cost Saving,Low,Operational,Resolved,0,1,0
+E310,2026-02-26,HR,Location A,Opportunity,Closed,Process,High,Commercial,Resolved,0,8,45
+E311,2026-08-12,Operations,Location C,Near Miss,Open,Process,Medium,Regulatory,Escalated,0,7,0
+E312,2026-06-07,Finance,Location B,Near Miss,Open,Compliance,Critical,Regulatory,Open,0,28,0
+E313,2026-11-10,Support,Location E,Issue,Deferred,Process,Medium,Customer,Resolved,1508,3,82
+E314,2026-02-15,HR,Location D,Issue,Closed,Process,High,Commercial,Resolved,2770,4,17
+E315,2026-07-17,Operations,Location D,Near Miss,In Progress,Compliance,Critical,Commercial,In Progress,0,32,30
+E316,2026-09-03,Support,Location B,Incident,Open,Safety,Medium,Commercial,Open,628,2,92
+E317,2026-03-29,IT,Location B,Issue,Closed,Quality,Medium,Regulatory,Resolved,326,7,0
+E318,2026-12-01,Sales,Location E,Incident,Open,Safety,Medium,Operational,Open,2469,9,0
+E319,2026-05-16,Finance,Location C,Near Miss,Closed,Compliance,High,Financial,Resolved,0,15,0
+E320,2026-01-02,IT,Location A,Opportunity,In Progress,Process,Low,Customer,In Progress,0,1,22
+E321,2026-11-23,Finance,Location A,Incident,In Progress,Quality,High,Financial,In Progress,9013,12,0
+E322,2026-02-16,IT,Location B,Opportunity,In Progress,Cost Saving,Low,Customer,In Progress,0,2,57
+E323,2026-08-27,Finance,Location B,Opportunity,Closed,Efficiency,High,Customer,Resolved,0,15,70
+E324,2026-07-31,Support,Location E,Issue,In Progress,Compliance,Medium,Regulatory,In Progress,2144,10,0
+E325,2026-05-01,Operations,Location C,Issue,Closed,Safety,Low,Regulatory,Waived,409,4,0
+E326,2026-12-13,Sales,Location A,Incident,Open,Compliance,Critical,Operational,Open,32746,13,0
+E327,2026-12-16,IT,Location B,Near Miss,Open,Process,Medium,Customer,Open,0,9,51
+E328,2026-10-10,HR,Location C,Audit Finding,Closed,Compliance,High,Regulatory,Resolved,7874,7,0
+E329,2026-08-01,Sales,Location B,Audit Finding,Closed,Compliance,Critical,Regulatory,Resolved,23749,30,0
+E330,2026-07-30,Finance,Location D,Incident,Closed,Service,Low,Commercial,Resolved,316,4,179
+E331,2026-12-22,IT,Location A,Incident,In Progress,Quality,High,Customer,In Progress,8785,12,48
+E332,2026-01-11,HR,Location C,Opportunity,Closed,Process,Critical,Customer,Waived,0,22,18
+E333,2026-06-03,Operations,Location C,Opportunity,Closed,Revenue,Low,Operational,Waived,0,3,0
+E334,2026-09-06,HR,Location A,Audit Finding,Open,Compliance,Medium,Regulatory,Open,2347,10,0
+E335,2026-01-15,Sales,Location B,Near Miss,Open,Safety,Low,Customer,Escalated,0,1,36
+E336,2026-07-08,Operations,Location E,Incident,Closed,Safety,High,Operational,Resolved,8308,9,0
+E337,2026-08-31,HR,Location C,Near Miss,Open,Process,High,Customer,Open,0,16,7
+E338,2026-03-25,Support,Location B,Near Miss,Closed,Process,High,Regulatory,Resolved,0,4,0
+E339,2026-08-31,Sales,Location B,Audit Finding,Open,Process,Medium,Commercial,Open,2832,5,113
+E340,2026-07-12,HR,Location D,Opportunity,Open,Cost Saving,High,Regulatory,Open,0,7,0
+E341,2026-01-04,HR,Location E,Audit Finding,Closed,Quality,High,Financial,Resolved,5529,14,0
+E342,2026-05-22,Finance,Location C,Near Miss,Closed,Safety,Critical,Regulatory,Resolved,0,28,0
+E343,2026-12-15,Sales,Location A,Incident,Deferred,Quality,Critical,Financial,Resolved,7314,20,0
+E344,2026-06-25,Support,Location E,Incident,Deferred,Quality,Medium,Operational,Open,2486,3,0
+E345,2026-05-31,Logistics,Location D,Near Miss,Open,Safety,Critical,Commercial,Open,0,22,95
+E346,2026-04-25,Finance,Location D,Opportunity,Closed,Cost Saving,Medium,Customer,Resolved,0,10,75
+E347,2026-11-14,Logistics,Location D,Near Miss,Closed,Compliance,Medium,Financial,Resolved,0,3,0
+E348,2026-03-12,Support,Location C,Incident,Deferred,Service,Low,Operational,Open,249,2,0
+E349,2026-11-20,Sales,Location C,Issue,Open,Delay,Medium,Operational,Open,848,8,0
+E350,2026-02-15,Sales,Location E,Incident,Closed,Service,Medium,Financial,Resolved,354,9,0
+E351,2026-04-13,HR,Location A,Opportunity,In Progress,Efficiency,Low,Customer,In Progress,0,1,29
+E352,2026-12-22,HR,Location C,Near Miss,Closed,Process,Low,Customer,Resolved,0,2,59
+E353,2026-09-24,HR,Location D,Near Miss,Closed,Compliance,Medium,Operational,Resolved,0,7,0
+E354,2026-01-10,Support,Location B,Near Miss,Closed,Quality,High,Operational,Resolved,0,5,0
+E355,2026-07-12,Finance,Location E,Audit Finding,Closed,Compliance,High,Customer,Resolved,2897,17,57
+E356,2026-07-14,Logistics,Location E,Opportunity,Closed,Efficiency,Medium,Customer,Resolved,0,2,85
+E357,2026-09-24,Finance,Location E,Audit Finding,Open,Finance,High,Customer,Open,2928,13,15
+E358,2026-02-24,Operations,Location B,Audit Finding,Closed,Quality,High,Operational,Resolved,7713,13,0
+E359,2026-03-24,Manufacturing,Location E,Incident,Deferred,Service,Medium,Customer,Resolved,564,2,74
+E360,2026-12-09,Operations,Location B,Issue,In Progress,Quality,High,Customer,In Progress,5192,11,59
+E361,2026-06-01,Finance,Location D,Issue,Open,Process,Critical,Commercial,Open,49352,28,114
+E362,2026-03-01,Logistics,Location A,Issue,In Progress,Safety,High,Commercial,In Progress,6857,18,164
+E363,2026-05-18,Logistics,Location C,Opportunity,Open,Process,Medium,Financial,Open,0,7,0
+E364,2026-12-20,Operations,Location D,Near Miss,Closed,Quality,Critical,Operational,Resolved,0,38,0
+E365,2026-10-19,Operations,Location B,Audit Finding,Closed,Quality,High,Operational,Resolved,8997,7,0
+E366,2026-07-30,Operations,Location A,Issue,Closed,Delay,Low,Regulatory,Resolved,295,4,0
+E367,2026-04-25,HR,Location E,Audit Finding,Closed,Compliance,Medium,Operational,Resolved,2918,7,0
+E368,2026-03-18,Manufacturing,Location A,Near Miss,Closed,Compliance,Critical,Operational,Resolved,0,39,0
+E369,2026-06-14,Support,Location C,Opportunity,Open,Efficiency,High,Financial,Open,0,11,0
+E370,2026-02-10,Operations,Location D,Audit Finding,Closed,Finance,Medium,Customer,Waived,2876,1,14
+E371,2026-07-26,IT,Location A,Audit Finding,Closed,Compliance,High,Regulatory,Resolved,9328,10,0
+E372,2026-12-02,Operations,Location C,Opportunity,In Progress,Efficiency,High,Commercial,In Progress,0,19,188
+E373,2026-12-03,HR,Location D,Issue,Open,Safety,Medium,Commercial,Open,2795,5,145
+E374,2026-09-25,HR,Location A,Issue,In Progress,Service,Low,Financial,In Progress,54,2,0
+E375,2026-11-09,Support,Location B,Issue,Deferred,Service,Medium,Operational,Open,641,7,0
+E376,2026-01-24,Logistics,Location D,Incident,Closed,Compliance,Critical,Customer,Resolved,8183,35,75
+E377,2026-09-05,Sales,Location E,Near Miss,Open,Safety,Low,Regulatory,Open,0,2,0
+E378,2026-09-16,IT,Location D,Audit Finding,In Progress,Process,Medium,Commercial,In Progress,1404,8,39
+E379,2026-03-12,IT,Location E,Audit Finding,Closed,Quality,High,Regulatory,Resolved,4291,10,0
+E380,2026-11-16,Finance,Location C,Near Miss,In Progress,Safety,Medium,Commercial,In Progress,0,2,199
+E381,2026-06-30,Operations,Location E,Audit Finding,In Progress,Finance,High,Regulatory,In Progress,5684,17,0
+E382,2026-01-07,Logistics,Location A,Incident,Open,Safety,Low,Operational,Escalated,349,2,0
+E383,2026-03-16,Manufacturing,Location C,Near Miss,Open,Quality,Medium,Financial,Open,0,9,0
+E384,2026-04-25,IT,Location B,Audit Finding,Open,Quality,High,Customer,Escalated,7349,17,88
+E385,2026-06-10,Manufacturing,Location A,Opportunity,Open,Process,High,Commercial,Escalated,0,10,190
+E386,2026-04-10,Finance,Location D,Near Miss,In Progress,Quality,Low,Operational,In Progress,0,4,0
+E387,2026-03-03,IT,Location A,Incident,Closed,Quality,Low,Regulatory,Resolved,2,2,0
+E388,2026-08-27,Sales,Location A,Near Miss,In Progress,Quality,High,Regulatory,In Progress,0,13,0
+E389,2026-09-09,HR,Location A,Opportunity,Closed,Efficiency,Medium,Regulatory,Resolved,0,9,0
+E390,2026-10-02,IT,Location A,Opportunity,Open,Efficiency,High,Commercial,Open,0,10,197
+E391,2026-11-13,Operations,Location E,Issue,Open,Delay,Medium,Regulatory,Escalated,1198,1,0
+E392,2026-12-16,HR,Location D,Issue,Closed,Compliance,High,Customer,Waived,7143,20,66
+E393,2026-08-17,Operations,Location A,Opportunity,In Progress,Efficiency,Medium,Customer,In Progress,0,2,22
+E394,2026-10-03,Manufacturing,Location A,Near Miss,Closed,Safety,Critical,Financial,Resolved,0,21,0
+E395,2026-10-03,IT,Location A,Near Miss,Closed,Process,Low,Customer,Resolved,0,2,72
+E396,2026-02-06,Support,Location C,Incident,Closed,Service,Medium,Customer,Resolved,684,9,1
+E397,2026-11-25,Logistics,Location E,Issue,Closed,Quality,Medium,Regulatory,Resolved,1434,10,0
+E398,2026-02-14,Finance,Location D,Incident,Closed,Safety,Medium,Regulatory,Resolved,1801,9,0
+E399,2026-06-01,Sales,Location C,Opportunity,Deferred,Revenue,High,Regulatory,Resolved,0,5,0
+E400,2026-01-03,IT,Location E,Audit Finding,In Progress,Quality,Medium,Commercial,In Progress,1067,7,170
+E401,2026-09-20,Sales,Location B,Near Miss,Closed,Process,Low,Operational,Resolved,0,4,0
+E402,2026-01-28,Operations,Location E,Issue,Closed,Quality,Medium,Operational,Resolved,2195,6,0
+E403,2026-07-02,Sales,Location B,Issue,Closed,Quality,Critical,Commercial,Resolved,26518,27,182
+E404,2026-10-27,Sales,Location E,Audit Finding,Closed,Quality,Critical,Operational,Resolved,21133,22,0
+E405,2026-12-31,IT,Location C,Opportunity,Open,Cost Saving,Critical,Financial,Open,0,27,0
+E406,2026-09-07,Logistics,Location B,Audit Finding,Closed,Quality,Critical,Operational,Resolved,17873,24,0
+E407,2026-11-17,Logistics,Location A,Issue,In Progress,Safety,Low,Regulatory,In Progress,296,3,0
+E408,2026-10-30,Support,Location A,Audit Finding,Closed,Finance,High,Operational,Resolved,4658,13,0
+E409,2026-03-10,Operations,Location E,Audit Finding,Closed,Quality,Medium,Operational,Resolved,2715,3,0
+E410,2026-09-21,Sales,Location D,Near Miss,Closed,Safety,High,Financial,Waived,0,5,0
+E411,2026-04-23,Operations,Location B,Issue,Closed,Process,Low,Operational,Resolved,405,2,0
+E412,2026-07-18,Operations,Location D,Issue,Open,Safety,Medium,Regulatory,Open,1320,5,0
+E413,2026-10-24,Sales,Location D,Incident,Closed,Safety,Medium,Financial,Waived,1112,9,0
+E414,2026-07-27,HR,Location C,Incident,In Progress,Safety,Medium,Operational,In Progress,2001,3,0
+E415,2026-04-28,Logistics,Location E,Opportunity,Open,Efficiency,Low,Regulatory,Open,0,0,0
+E416,2026-12-05,Support,Location D,Opportunity,Closed,Process,High,Financial,Resolved,0,9,0
+E417,2026-11-28,IT,Location A,Near Miss,Closed,Safety,Low,Regulatory,Resolved,0,4,0
+E418,2026-03-17,Manufacturing,Location B,Opportunity,Deferred,Process,High,Regulatory,Open,0,13,0
+E419,2026-02-13,Support,Location D,Audit Finding,In Progress,Finance,Low,Financial,In Progress,307,1,0
+E420,2026-10-26,Sales,Location E,Audit Finding,Closed,Quality,Critical,Regulatory,Resolved,20061,32,0
+E421,2026-07-17,Sales,Location A,Issue,Open,Compliance,High,Operational,Open,3906,19,0
+E422,2026-11-11,Manufacturing,Location E,Audit Finding,Open,Compliance,Medium,Operational,Escalated,2408,1,0
+E423,2026-12-14,IT,Location E,Incident,Closed,Safety,High,Financial,Resolved,8899,16,0
+E424,2026-06-29,Logistics,Location D,Near Miss,Closed,Safety,Critical,Customer,Resolved,0,34,33
+E425,2026-04-07,Manufacturing,Location A,Audit Finding,Closed,Compliance,Medium,Operational,Resolved,1493,7,0
+E426,2026-07-05,Logistics,Location B,Incident,Closed,Quality,Medium,Regulatory,Resolved,1697,10,0
+E427,2026-05-22,IT,Location B,Incident,Closed,Service,Low,Regulatory,Resolved,129,2,0
+E428,2026-10-23,HR,Location D,Near Miss,In Progress,Quality,High,Financial,In Progress,0,9,0
+E429,2026-02-21,Support,Location E,Incident,In Progress,Safety,Low,Customer,In Progress,411,0,19
+E430,2026-08-30,IT,Location A,Issue,Closed,Delay,Low,Customer,Resolved,476,3,79
+E431,2026-12-02,Finance,Location E,Issue,Deferred,Process,High,Financial,Resolved,9489,13,0
+E432,2026-04-10,Manufacturing,Location E,Audit Finding,Closed,Process,High,Customer,Resolved,1004,9,12
+E433,2026-05-22,IT,Location C,Incident,Closed,Compliance,Medium,Customer,Waived,2451,5,93
+E434,2026-10-14,HR,Location C,Opportunity,Open,Efficiency,Medium,Financial,Open,0,5,0
+E435,2026-03-31,IT,Location E,Issue,Closed,Compliance,Medium,Customer,Resolved,1255,9,74
+E436,2026-05-09,Operations,Location D,Audit Finding,Closed,Process,High,Financial,Resolved,1448,19,0
+E437,2026-03-01,Finance,Location A,Incident,Closed,Compliance,High,Operational,Resolved,7757,15,0
+E438,2026-09-22,Manufacturing,Location C,Near Miss,Closed,Compliance,High,Commercial,Resolved,0,9,126
+E439,2026-06-10,HR,Location B,Audit Finding,Closed,Process,Medium,Operational,Resolved,1191,5,0
+E440,2026-04-16,Support,Location B,Near Miss,Open,Process,Low,Customer,Open,0,0,87
+E441,2026-12-06,Operations,Location E,Issue,In Progress,Compliance,Critical,Financial,In Progress,29326,28,0
+E442,2026-09-10,Finance,Location D,Near Miss,In Progress,Process,Medium,Regulatory,In Progress,0,3,0
+E443,2026-01-28,IT,Location D,Audit Finding,Closed,Quality,Medium,Operational,Resolved,693,9,0
+E444,2026-08-24,HR,Location A,Issue,Closed,Service,High,Commercial,Resolved,5254,9,145
+E445,2026-05-15,Support,Location C,Incident,Deferred,Quality,Medium,Financial,Resolved,1916,6,0
+E446,2026-07-06,IT,Location C,Incident,Open,Compliance,Critical,Operational,Escalated,22691,23,0
+E447,2026-10-12,IT,Location D,Near Miss,Closed,Safety,Medium,Customer,Resolved,0,8,18
+E448,2026-11-19,HR,Location D,Opportunity,Closed,Revenue,Medium,Operational,Resolved,0,5,0
+E449,2026-09-01,Logistics,Location D,Opportunity,Closed,Cost Saving,High,Commercial,Resolved,0,17,36
+E450,2026-06-29,Support,Location E,Audit Finding,Closed,Process,Critical,Commercial,Resolved,49118,40,129
+E451,2026-08-17,Logistics,Location D,Audit Finding,Closed,Process,Critical,Commercial,Resolved,45128,33,23
+E452,2026-02-10,Sales,Location C,Near Miss,Closed,Process,High,Regulatory,Resolved,0,12,0
+E453,2026-08-16,HR,Location E,Audit Finding,In Progress,Finance,Low,Customer,In Progress,64,1,85
+E454,2026-05-09,Logistics,Location B,Near Miss,Closed,Quality,Low,Financial,Resolved,0,0,0
+E455,2026-07-23,Logistics,Location A,Opportunity,Closed,Revenue,High,Financial,Resolved,0,11,0
+E456,2026-05-26,Operations,Location B,Near Miss,Closed,Safety,Low,Commercial,Resolved,0,2,126
+E457,2026-08-28,Finance,Location E,Incident,Open,Compliance,High,Financial,Open,8126,20,0
+E458,2026-11-24,Finance,Location C,Incident,Closed,Safety,Medium,Commercial,Resolved,837,5,7
+E459,2026-01-01,Sales,Location C,Opportunity,Closed,Revenue,High,Financial,Waived,0,19,0
+E460,2026-06-03,Manufacturing,Location D,Opportunity,Closed,Revenue,Medium,Operational,Resolved,0,9,0
+E461,2026-08-12,IT,Location B,Near Miss,Open,Compliance,High,Operational,Open,0,17,0
+E462,2026-11-17,Support,Location E,Audit Finding,Open,Quality,Medium,Regulatory,Escalated,1891,4,0
+E463,2026-02-05,Sales,Location B,Opportunity,Open,Process,High,Commercial,Open,0,19,53
+E464,2026-06-14,Manufacturing,Location B,Issue,Deferred,Quality,Low,Customer,Resolved,64,3,94
+E465,2026-01-05,Support,Location A,Near Miss,Closed,Safety,Medium,Commercial,Resolved,0,8,100
+E466,2026-08-26,Manufacturing,Location C,Issue,In Progress,Process,Low,Financial,In Progress,36,4,0
+E467,2026-08-29,Sales,Location B,Opportunity,In Progress,Revenue,Low,Operational,In Progress,0,3,0
+E468,2026-08-15,Support,Location A,Near Miss,Closed,Quality,Medium,Operational,Resolved,0,5,0
+E469,2026-06-15,Sales,Location A,Audit Finding,Closed,Quality,Medium,Commercial,Resolved,413,4,33
+E470,2026-05-01,IT,Location C,Issue,Open,Delay,High,Financial,Escalated,1146,5,0
+E471,2026-10-25,Operations,Location E,Near Miss,Closed,Quality,Medium,Financial,Resolved,0,10,0
+E472,2026-06-23,Manufacturing,Location A,Opportunity,Closed,Revenue,Low,Operational,Resolved,0,4,0
+E473,2026-11-27,HR,Location D,Near Miss,Closed,Compliance,Medium,Operational,Resolved,0,1,0
+E474,2026-09-06,Operations,Location E,Opportunity,Closed,Process,Low,Operational,Resolved,0,2,0
+E475,2026-08-28,Finance,Location E,Audit Finding,Closed,Process,Medium,Commercial,Resolved,2059,1,168
+E476,2026-09-17,IT,Location B,Issue,Closed,Delay,High,Operational,Resolved,2037,16,0
+E477,2026-04-08,Operations,Location E,Near Miss,Closed,Process,Medium,Commercial,Resolved,0,9,173
+E478,2026-02-04,Manufacturing,Location B,Near Miss,In Progress,Safety,Low,Operational,In Progress,0,0,0
+E479,2026-01-17,IT,Location D,Audit Finding,Closed,Quality,Low,Operational,Resolved,36,0,0
+E480,2026-04-17,Operations,Location A,Incident,In Progress,Safety,Medium,Financial,In Progress,1711,1,0
+E481,2026-11-12,Finance,Location E,Issue,Closed,Delay,Low,Operational,Waived,49,0,0
+E482,2026-04-29,IT,Location B,Near Miss,Closed,Safety,High,Operational,Resolved,0,17,0
+E483,2026-02-24,HR,Location D,Incident,In Progress,Compliance,High,Regulatory,In Progress,7579,20,0
+E484,2026-06-22,Sales,Location E,Audit Finding,Closed,Quality,Critical,Regulatory,Waived,26276,31,0
+E485,2026-07-31,IT,Location C,Audit Finding,Closed,Process,Medium,Regulatory,Waived,1240,6,0
+E486,2026-08-20,Operations,Location D,Issue,Closed,Delay,High,Regulatory,Resolved,5945,4,0
+E487,2026-06-03,Support,Location B,Opportunity,Open,Cost Saving,Critical,Regulatory,Open,0,17,0
+E488,2026-02-18,Manufacturing,Location D,Opportunity,Open,Cost Saving,Medium,Regulatory,Open,0,5,0
+E489,2026-06-03,Logistics,Location E,Incident,Closed,Compliance,High,Commercial,Resolved,3832,19,181
+E490,2026-12-26,Logistics,Location E,Opportunity,Open,Process,Low,Customer,Escalated,0,2,45
+E491,2026-08-11,IT,Location A,Near Miss,Open,Quality,High,Financial,Open,0,20,0
+E492,2026-01-22,HR,Location E,Audit Finding,Closed,Process,Low,Financial,Waived,385,4,0
+E493,2026-10-22,Logistics,Location B,Incident,Closed,Service,Low,Commercial,Resolved,292,0,145
+E494,2026-07-24,Finance,Location A,Incident,Closed,Compliance,High,Financial,Resolved,8993,16,0
+E495,2026-11-30,Support,Location E,Audit Finding,In Progress,Process,Medium,Commercial,In Progress,1961,6,180
+E496,2026-10-22,Logistics,Location A,Incident,Closed,Quality,Low,Commercial,Resolved,12,2,48
+E497,2026-06-29,Operations,Location E,Near Miss,Closed,Safety,Low,Commercial,Resolved,0,0,33
+E498,2026-01-28,Support,Location E,Near Miss,In Progress,Process,Low,Customer,In Progress,0,2,58
+E499,2026-08-30,Manufacturing,Location C,Near Miss,Open,Safety,Medium,Regulatory,Escalated,0,9,0
+E500,2026-09-05,Sales,Location A,Incident,Closed,Safety,Medium,Customer,Resolved,2731,5,7
