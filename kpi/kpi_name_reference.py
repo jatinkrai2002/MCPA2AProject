@@ -41,99 +41,55 @@ class KPINameReference:
     If KPI name matches a loader method, executes it.
     Otherwise, calls Groq LLM (or fallback) for description.
     """
-    def groq_llm_response(self, kpi_name: str) -> str:
+    def groq_llm_response(self, kpi_name: str, dataset: Any = None) -> str:
         """
-        Call Groq LLM using LangChain Core to generate 2-3 lines about KPI Name.
+        Produce a short (1-3 sentence) description for the given KPI name based on the provided dataset.
+        If dataset is None, uses self.df. The dataset may be a JSON string, a pandas DataFrame-like object
+        with to_json, or any JSON-serializable Python structure.
         """
-        # Load environment variables from .env
-        
         load_dotenv()
         api_key = os.getenv("GROQ_API_KEY")
         if not api_key:
-            description = "GROQ_API_KEY not found. Please set it in .env."
-            return description
-        
-        modelname =  os.getenv("model")
+            return "GROQ_API_KEY not found. Please set it in .env."
+
+        modelname = os.getenv("model")
         if not modelname:
-            description = "modelname not found. Please set it in .env."
-            return description
-        
+            return "modelname not found. Please set it in .env."
+
         try:
-            # Otherwise fallback to Groq LLM for description
-           
             groq_llm = ChatGroq(model=modelname)
-            
-            
-            # Serialize DataFrame into JSON string (safe for LLMs)
-            df_json = self.df.to_json(orient="records")
 
-            # Step 2: Define prompt
+            # Prepare dataset JSON
+            if dataset is None:
+                df_json = self.df.to_json(orient="records")
+            elif isinstance(dataset, str):
+                df_json = dataset
+            else:
+                try:
+                    df_json = dataset.to_json(orient="records")
+                except Exception:
+                    df_json = json.dumps(dataset)
+
+            # Simple prompt asking the LLM to produce a concise description
             prompt = ChatPromptTemplate.from_messages([
-                ("system", 
-                """You are an Agentic KPI Builder AI with expertise in Python, LangChain, LangSmith, Langraph, Groq, and DataFrame analytics. 
-            Your role is to compute KPI metrics from operational event data.
-
-            Rules:
-            - If KPI Name does not exist or is new/custom, ask user for Formula/Logic => Metric Type => Expected Value.
-            - For each KPI, return JSON with fields: KPI_Name, Description, Formula, Computed_Value, Unit, Badge.
-            - Badge rules: success if matches expected, warning if ±10%, critical if >10% deviation, info if Expected Value = Varies.
-            - Always calculate using provided dataset.
-            - Output must be a JSON array containing all KPI objects requested.
-                """),
-                ("human", "{instruction}\n\nDataset:\n{data}")
+                ("system",
+                 "You are a concise assistant that writes short (1-3 sentence) human-readable descriptions of KPIs. "
+                 "Given a KPI name and a dataset (as JSON records), produce a brief description of what the KPI measures "
+                 "and, at a high level, how it would be computed from the dataset. Output only the description text."),
+                ("human", "KPI: {kpi_name}\n\nDataset:\n{data}\n\nPlease provide a concise description.")
             ])
-            
 
-            # Step 4: Define KPI requests (dicts with string keys!)
-            kpi_requests = {
-                "Issue Count": {"instruction": "Compute KPI 'Issue Count' from dataset", "data": df_json},
-                "Near Miss Count": {"instruction": "Compute KPI 'Near Miss Count' from dataset", "data": df_json},
-                "Open Issue Count": {"instruction": "Compute KPI 'Open Issue Count' from dataset", "data": df_json},
-                "High Priority Issue Count": {"instruction": "Compute KPI 'High Priority Issue Count' from dataset", "data": df_json},
-                "Near Miss to Issue Ratio": {"instruction": "Compute KPI 'Near Miss to Issue Ratio' from dataset", "data": df_json},
-                "Average Processing Hours": {"instruction": "Compute KPI 'Average Processing Hours' from dataset", "data": df_json},
-                "Total Cost Impact": {"instruction": "Compute KPI 'Total Cost Impact' from dataset", "data": df_json},
-                "Critical Issue Count": {"instruction": "Compute KPI 'Critical Issue Count' from dataset", "data": df_json},
-                "Avg Customer Impact": {"instruction": "Compute KPI 'Avg Customer Impact' from dataset", "data": df_json},
-                "Resolution Rate": {"instruction": "Compute KPI 'Resolution Rate' from dataset", "data": df_json}
-            }
-            
-            # Step 4: Batch KPI instructions into one string
-            instruction_text  = """
-            Compute the following KPIs from dataset:
-            1. Issue Count
-            2. Near Miss Count
-            3. Resolution Rate
-            """
-            # Step 5: Invoke once with both variables
-            final_output = (prompt | groq_llm).invoke({
-                "data": df_json,
-                "instruction": instruction_text
-            })
-            description = final_output
+            result = (prompt | groq_llm).invoke({"kpi_name": kpi_name, "data": df_json})
 
-            # Step 5: RunnableMap for parallel KPI calculations
-            chain_map = RunnableMap({
-                kpi: (prompt | groq_llm)
-                for kpi in kpi_requests
-            })
-
-            # Step 6: Merge into one JSON array
-            merge_chain = chain_map | RunnableLambda(
-                lambda results: json.dumps([results[kpi] for kpi in results], indent=2)
-            )
-
-            # Step 7: Run
-            final_output = merge_chain.invoke(kpi_requests)
-           # description = final_output
-            print(final_output)
+            if isinstance(result, str):
+                return result.strip()
+            try:
+                return str(result)
+            except Exception:
+                return json.dumps(result)
 
         except Exception as e:
-            #self.st.error(f'Error: {e}')
-            description = f"KPI '{kpi_name}' is not defined in dataset. It may represent a custom metric.'Error: {e}'"
-            
-        return description
-
+            return f"Error generating description for KPI '{kpi_name}': {e}"
 
     def validate_intent(self, intent: dict):
         errors = []
