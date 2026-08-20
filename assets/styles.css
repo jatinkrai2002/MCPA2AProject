@@ -1,0 +1,36 @@
+/* General card styling */
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* KPI name header */
+.card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* Status badge styles */
+.badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.badge.good {
+    background-color: #27ae60; /* green */
+}
+
+.badge.warning {
+    background-color: #f39c12; /* orange */
+}
+
+.badge.critical {
+    background-color: #e74c3c; /* red */
+}

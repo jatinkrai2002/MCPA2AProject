@@ -1,0 +1,54 @@
+{
+  "workflow": {
+    "name": "AgenticKPIWorkflow",
+    "nodes": [
+      {
+        "id": "entry",
+        "type": "tool",
+        "function": "agent.run_flow",
+        "next": "validate_intent"
+      },
+      {
+        "id": "validate_intent",
+        "type": "tool",
+        "function": "reference.validate_intent",
+        "on_success": "execute_intent",
+        "on_error": "entry"
+      },
+      {
+        "id": "execute_intent",
+        "type": "tool",
+        "function": "reference.execute_intent",
+        "on_success": "review_card",
+        "on_error": "groq_llm_response"
+      },
+      {
+        "id": "groq_llm_response",
+        "type": "prompt",
+        "function": "reference.groq_llm_response",
+        "next": "review_card"
+      },
+      {
+        "id": "review_card",
+        "type": "tool",
+        "function": "run_review_card",
+        "next": "end"
+      },
+      {
+        "id": "compute_status_badge",
+        "type": "static",
+        "function": "compute_status_badge",
+        "used_by": "review_card"
+      }
+    ],
+    "edges": [
+      { "from": "entry", "to": "validate_intent" },
+      { "from": "validate_intent", "to": "execute_intent" },
+      { "from": "validate_intent", "error_to": "entry" },
+      { "from": "execute_intent", "to": "review_card" },
+      { "from": "execute_intent", "error_to": "groq_llm_response" },
+      { "from": "groq_llm_response", "to": "review_card" },
+      { "from": "review_card", "to": "end" }
+    ]
+  }
+}

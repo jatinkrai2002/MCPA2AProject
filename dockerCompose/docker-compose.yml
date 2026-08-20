@@ -1,0 +1,17 @@
+#This orchestrates your app with environment variables:
+version: "3.9"
+
+services:
+  agentic-kpi-app:
+    build:
+      context: ..
+      dockerfile: docker/dockerfile
+    container_name: agentic-kpi-app
+    env_file:
+      - ../.env
+    ports:
+      - "8501:8501"
+    volumes:
+      - ../data:/app/data
+      - ../assets:/app/assets
+    restart: always
